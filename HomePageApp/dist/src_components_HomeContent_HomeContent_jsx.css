@@ -1,0 +1,71 @@
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/QuickBooking/QuickBooking.scss ***!
+  \**********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap);
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/HomeContent/HomeContent.scss ***!
+  \********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/QuickBooking/QuickBooking.scss (1) ***!
+  \**************************************************************************************************************************************************************************************/
+.quick-booking-container {
+  background: #3f51b5;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.quick-booking-container span {
+  color: white;
+}
+.quick-booking-container .header {
+  color: white;
+  font-size: x-large;
+  font-family: "Permanent Marker", cursive;
+}
+.quick-booking-container .spacer {
+  flex-grow: 1;
+}
+.quick-booking-container .mr-1 {
+  margin-right: 10px;
+}
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/HomeContent/HomeContent.scss (1) ***!
+  \************************************************************************************************************************************************************************************/
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.movies-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.card {
+  margin: 20px;
+  border: 1px dashed grey;
+  background-color: rgb(232, 232, 232);
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  align-items: center;
+}
+.card img {
+  border-radius: 10px;
+  width: 150px;
+}
+.card span {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+}
+.card :hover {
+  cursor: pointer;
+}

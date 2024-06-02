@@ -1,0 +1,37 @@
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/DetailsContent/DetailsContent.scss ***!
+  \**************************************************************************************************************************************************************************************/
+.details-content-container {
+  padding: 20px;
+}
+.details-content-container .ml-2 {
+  margin-left: 20px;
+}
+.details-content-container .mb-2 {
+  margin-bottom: 20px;
+}
+.details-content-container .details-content-row {
+  display: flex;
+}
+.details-content-container img {
+  max-height: 300px;
+}
+.details-content-container hr {
+  border: 1px dashed;
+}
+.details-content-container .align-center {
+  align-items: center;
+}
+.details-content-container .details-content-book-movie {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.details-content-container .details-content-column {
+  display: flex;
+  flex-direction: column;
+}
+.details-content-container .movie-title {
+  margin-bottom: 0px;
+  color: blue;
+}
